@@ -9,7 +9,7 @@ import (
 	"sync"
 	"text/template"
 
-	"./trace"
+	"aukhatov.art/chat/trace"
 )
 
 func main() {
