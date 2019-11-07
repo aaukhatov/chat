@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/gorilla/websocket"
 	"./trace"
+	"github.com/gorilla/websocket"
 )
 
 const (
@@ -24,8 +24,8 @@ type room struct {
 	// clients holds all current clients in this room.
 	clients map[*client]bool
 	// tracer will receive trace information of activity
-     // in the room.
-     tracer trace.Tracer
+	// in the room.
+	tracer trace.Tracer
 }
 
 // newRoom makes a new room.
